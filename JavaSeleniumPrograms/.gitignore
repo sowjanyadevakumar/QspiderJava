@@ -1,10 +1,12 @@
 # Compiled class files
 *.class
 
+# Downloaded dependency JARs (run: mvn dependency:copy-dependencies -DoutputDirectory=libs)
+libs/
+
 # IDE files
 .idea/
 *.iml
-.vscode/
 
 # OS files
 .DS_Store
